@@ -7,3 +7,5 @@ You Can Check Whether These Ports Are Open "Forwarded" Through Your Router Or No
 
 Coded By : a-asaker.
 
+# Note:
+  - You Should Run This Script As 'Root' Or 'Administrator'.
