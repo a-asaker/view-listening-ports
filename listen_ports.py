@@ -11,6 +11,9 @@ def scan():
   		s.bind(("",port))
   		s.close()
   	except Exception as ex:
-  		print(port,":",ex)
+  	  	if str(ex).find("Address already in use") is not -1:
+  	  	  	print(port)
+  	  	else:
+  	  		print(port,":",ex)
 if __name__ == "__main__":
   scan()
